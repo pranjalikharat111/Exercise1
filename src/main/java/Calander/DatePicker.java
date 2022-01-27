@@ -14,6 +14,7 @@ public class DatePicker {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.goibibo.com/cars/");
-
+driver.close();
+System.out.println("Third Changes");
 	}
 }
